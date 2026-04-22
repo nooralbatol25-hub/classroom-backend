@@ -7,7 +7,15 @@ from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
 # Initialize Firebase
-cred = credentials.Certificate("serviceaccount.json")
+import os
+import json
+
+cred_json = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON")
+if cred_json:
+    cred_dict = json.loads(cred_json)
+    cred = credentials.Certificate(cred_dict)
+else:
+    cred = credentials.Certificate("serviceaccount.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
