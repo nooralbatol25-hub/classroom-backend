@@ -1,0 +1,5 @@
+fastapi 
+uvicorn 
+numpy 
+firebase-admin 
+scikit-learn 
