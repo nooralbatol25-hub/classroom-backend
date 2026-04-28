@@ -188,6 +188,15 @@ def seed_rooms():
     for room in rooms:
         db.collection("rooms").document(room["room_id"]).set(room)
     return {"message": "20 rooms added to Firebase!"}
+from pydantic import BaseModel
+
+class Booking(BaseModel):
+    room_id: str
+    date: str
+    from_time: str = ""
+    to_time: str = ""
+    booked_by: str = ""
+    status: str = "reserved"
 @app.post("/bookings")
 def add_booking(booking: Booking):
     data = {
