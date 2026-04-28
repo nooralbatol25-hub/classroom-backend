@@ -1,0 +1,566 @@
+{
+  "department": "Businesses Informatics Technology (BIT)",
+  "college": "Businesses Informatics College - University of Information Technology and Communication (UoITC)",
+  "academic_year": "2025-2026",
+  "generated_date": "2026-02-21",
+  "stages": [
+    {
+      "stage_id": "first_class_bit",
+      "stage_name": "First Class",
+      "schedule": [
+        {
+          "day": "Sunday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Programming Fundamentals",
+              "room": "Classroom 6",
+              "type": "lecture",
+              "instructor": "Dr. Mohammed Salih"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Mathematics",
+              "room": "Classroom 6",
+              "type": "lecture",
+              "instructor": "Hasanain Jaleel"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Probability and Statistics",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Ahmed Abdulsahib", "Dr. Zainab Faleh", "Hasanain Jaleel", "Ruya", "Dr. Rana Yousef"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Programming Fundamentals",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G3",
+              "instructors": ["Dr. Mohammed Salih", "Yassir Mohammed", "Bilal Ibraheem", "Rusul Abdulredha", "Sanaa Muhsen", "Hiba Abdulwahed"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Programming Fundamentals",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Mohammed Salih", "Yassir Mohammed", "Bilal Ibraheem", "Rusul Abdulredha", "Sanaa Muhsen", "Hiba Abdulwahed"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Probability and Statistics",
+              "room": "BIC_BIT_LAB1",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Ahmed Abdulsahib", "Dr. Zainab Faleh", "Hasanain Jaleel", "Ruya", "Dr. Rana Yousef"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Probability and Statistics",
+              "room": "BIC_BIT_LAB1",
+              "type": "lab",
+              "group": "G3",
+              "instructors": ["Dr. Ahmed Abdulsahib", "Dr. Zainab Faleh", "Hasanain Jaleel", "Ruya", "Dr. Rana Yousef"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Programming Fundamentals",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Mohammed Salih", "Yassir Mohammed", "Bilal Ibraheem", "Rusul Abdulredha", "Sanaa Muhsen", "Hiba Abdulwahed"]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Probability and Statistics",
+              "room": "Classroom 6",
+              "type": "lecture",
+              "instructor": "Dr. Ahmed Abdulsahib"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Human Resources Management",
+              "room": "Classroom 6",
+              "type": "lecture",
+              "instructor": "Dr. Abdulla Nihad"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Computational Paradigms",
+              "room": "Classroom 6",
+              "type": "lecture",
+              "instructor": "Dr. Hassanain Majeed"
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Computational Paradigms Tutorial",
+              "room": "Classroom 6",
+              "type": "tutorial",
+              "instructor": "Dr. Hassanain Majeed"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Arabic I",
+              "room": "Classroom 6",
+              "type": "lecture",
+              "instructor": "Dr. Ikram Mohammed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage_id": "second_class_bit",
+      "stage_name": "Second Class",
+      "schedule": [
+        {
+          "day": "Sunday",
+          "sessions": [
+            {
+              "time": "9:30-10:30",
+              "subject": "Mathematics",
+              "room": "Classroom 1",
+              "type": "lecture",
+              "instructor": "Hasanain Jaleel"
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Cost Accounting",
+              "room": "Classroom 1",
+              "type": "lecture",
+              "instructor": "Dr. Ibrahim Naim"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Database Fundamentals",
+              "room": "Classroom 7",
+              "type": "lecture",
+              "instructor": "Dr. Ahmed S. Ahmed"
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Algorithm and Complexity",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Anas Mazen", "Dr. Bassam Talib", "Hanan Juma", "Rajaa", "M Hamed"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Web Application Development",
+              "room": "BIC_BIT_LAB2",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Atheer Akram", "Nada Mahdi", "Sanaa Muhsen"]
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Web Application Development",
+              "room": "BIC_BIT_LAB2",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Atheer Akram", "Nada Mahdi", "Sanaa Muhsen"]
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Algorithm and Complexity",
+              "room": "BIC_BIT_LAB3",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Anas Mazen", "Dr. Bassam Talib", "Hanan Juma", "Rajaa", "M Hamed"]
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Web Application Development",
+              "room": "Classroom 7",
+              "type": "lecture",
+              "instructor": "Dr. Atheer Akram"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "OOP (II)",
+              "room": "Classroom 7",
+              "type": "lecture",
+              "instructor": "Ahmed Eskender"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "OOP (II)",
+              "room": "BIC_BIT_LAB1",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Ahmed Eskender", "Rusul Abdulredha", "Reman Juma", "Eisa M", "Mohammed J"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Database Fundamentals",
+              "room": "BIC_BIT_LAB2",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Ahmed S. Ahmed", "Huda Abdulhussain", "Dr. Bassam Talib", "Bushra"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Database Fundamentals",
+              "room": "BIC_BIT_LAB2",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Ahmed S. Ahmed", "Huda Abdulhussain", "Dr. Bassam Talib", "Bushra"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "OOP (II)",
+              "room": "BIC_BIT_LAB4",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Ahmed Eskender", "Rusul Abdulredha", "Reman Juma", "Eisa M", "Mohammed J"]
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Arabic II",
+              "room": "Classroom 7",
+              "type": "lecture",
+              "instructor": "Dr. Ikram Mohammed"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Algorithm and Complexity",
+              "room": "Classroom 7",
+              "type": "lecture",
+              "instructor": "Dr. Anas Mazen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage_id": "third_class_bit",
+      "stage_name": "Third Class",
+      "schedule": [
+        {
+          "day": "Sunday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Internet of Things",
+              "room": "Class 7",
+              "type": "lecture",
+              "instructor": "Dr. Hassanain Majeed"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Software Engineering (II)",
+              "room": "Class 7",
+              "type": "lecture",
+              "instructor": "Dr. Haider Hassan"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Software Engineering (II)",
+              "room": "BIC_BIT_LAB1",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Haider Hassan", "Taif Tariq", "Dr. Shaima Adnan", "Ahmed Eskender"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Project Management",
+              "room": "BIC_BIT_LAB4",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Marwan abd", "Asmaa Abdul Rahman", "Iqbal Ahmed", "Zahraa Majid", "Balqees"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Project Management",
+              "room": "BIC_BIT_LAB4",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Marwan abd", "Asmaa Abdul Rahman", "Iqbal Ahmed", "Zahraa Majid", "Balqees"]
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Software Engineering (II)",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Haider Hassan", "Taif Tariq", "Dr. Shaima Adnan", "Ahmed Eskender"]
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Information Security",
+              "room": "BIC_BIT_LAB3",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Sinan Abdul Aal", "Zahraa Jaafar", "Reman Juma", "Esraa Shehab"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Internet of Things",
+              "room": "BIC_BIT_LAB2",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Hassanain Majeed", "Dr. Mustafa Fawzi", "Dr. Muna"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Internet of Things",
+              "room": "BIC_BIT_LAB2",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Hassanain Majeed", "Dr. Mustafa Fawzi", "Dr. Muna"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Information Security",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Sinan Abdul Aal", "Zahraa Jaafar", "Reman Juma", "Esraa Shehab"]
+            },
+            {
+              "time": "12:30-14:30",
+              "subject": "Graphics and Visualization",
+              "room": "Classroom 6",
+              "type": "lecture",
+              "instructor": "Dr. Bassam Talib"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "9:30-11:30",
+              "subject": "Project Management",
+              "room": "Classroom 7",
+              "type": "lecture",
+              "instructor": "Marwan abd"
+            },
+            {
+              "time": "11:30-13:30",
+              "subject": "Mobile Applications Development",
+              "room": "Class 7",
+              "type": "lecture",
+              "instructor": "Dr. Sarmad Munadhil"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Graphics and Visualization",
+              "room": "BIC_BIT_LAB2",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Bassam Talib", "Dr. Mustafa Fawzi", "Marwan abd", "Zahraa Jaafar"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Mobile Applications Development",
+              "room": "BIC_BIT_LAB4",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Sarmad Munadhil", "Mustafa Raad", "Reman Juma"]
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Information Security",
+              "room": "Class 1",
+              "type": "lecture",
+              "instructor": "Dr. Sinan Abdul Aal"
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Mobile Applications Development",
+              "room": "BIC_BIT_LAB4",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Sarmad Munadhil", "Mustafa Raad", "Reman Juma"]
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Graphics and Visualization",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Bassam Talib", "Dr. Mustafa Fawzi", "Marwan abd", "Zahraa Jaafar"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage_id": "fourth_class_bit",
+      "stage_name": "Fourth Class",
+      "schedule": [
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "time": "10:30-12:30",
+              "subject": "Feasibility Study",
+              "room": "Classroom 7",
+              "type": "lecture",
+              "instructor": "Dr. Alaa Talal"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Project (II)",
+              "room": "Classroom 6",
+              "type": "lecture",
+              "instructor": "Dr. Haithem Sabah"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Big Data Analytics",
+              "room": "Class 6",
+              "type": "lecture",
+              "instructor": "Dr. Shaima Adnan"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Multimedia Systems and Applications",
+              "room": "Class 7",
+              "type": "lecture",
+              "instructor": "Dr. Zainab Khudair"
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Multimedia Systems and Applications",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Zainab Khudair", "Zahraa Jaafar", "M Hamed", "Jaafer M"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Cloud Computing Tutorial",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Sameera Fares", "Dr. Nadhim Azeez", "Ibrahim Fadhil", "Hanan Juma"]
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Cloud Computing Tutorial",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Sameera Fares", "Dr. Nadhim Azeez", "Ibrahim Fadhil"]
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Multimedia Systems and Applications",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Zainab Khudair", "Zahraa Jaafar", "M Hamed", "Jaafer M"]
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Cloud Computing",
+              "room": "Class 1",
+              "type": "lecture",
+              "instructor": "Sameera Fares"
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Big Data Analytics Tutorial",
+              "room": "BIC_BIT_LAB3",
+              "type": "lab",
+              "group": "G1",
+              "instructors": ["Dr. Shaima Adnan", "Ibrahim Fadhil", "Dr. Abdulla Nihad", "Hanan Juma"]
+            },
+            {
+              "time": "11:30-12:30",
+              "subject": "Big Data Analytics Tutorial",
+              "room": "BIC_BIT_LAB3",
+              "type": "lab",
+              "group": "G2",
+              "instructors": ["Dr. Shaima Adnan", "Ibrahim Fadhil", "Dr. Abdulla Nihad", "Hanan Juma"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": {
+    "classrooms": ["Classroom 1", "Classroom 6", "Classroom 7"],
+    "labs": ["LAB 1", "LAB 2", "LAB 3", "LAB 4", "BIC_BIT_LAB1", "BIC_BIT_LAB2", "BIC_BIT_LAB3", "BIC_BIT_LAB4"]
+  },
+  "time_slots": [
+    "8:30-9:30",
+    "9:30-10:30",
+    "10:30-11:30",
+    "11:30-12:30",
+    "12:30-13:30",
+    "13:30-14:30"
+  ],
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+}

@@ -1,0 +1,705 @@
+{
+  "department": "Informatics Systems Management (ISM)",
+  "academic_year": "2025-2026",
+  "generated_date": "2026-02-18",
+  "stages": [
+    {
+      "stage_id": "first_stage_a",
+      "stage_name": "First Stage A",
+      "schedule": [
+        {
+          "day": "Sunday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Human Resources Management",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Dr. Abdullah Nehad"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Arabic I",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Lubna Abdulazeez"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "time": "10:30-12:30",
+              "subject": "Probability and Statistic",
+              "room": "LAB 3",
+              "type": "lab",
+              "instructor": "Dr. Anaam Naama"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Foundations of Information Systems",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Dr. Sura Fawzi"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Programming Fundamentals II",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Ayoub Abdul Moneim"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Programming Fundamentals II",
+              "room": "LAB 4",
+              "type": "lab",
+              "instructors": ["Ayoub Abdul Moneim", "Rasha", "Dr. May", "Mohammed Abdulameer"]
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Foundations of Information Systems",
+              "room": "LAB 4",
+              "type": "lab",
+              "instructors": ["Dr. Sura Fawzi", "Eman Ghazal", "Rana", "Omar Hadi"]
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Web Search Method",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Dr. Mohammed Qassim"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Probability and Statistic",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Dr. Anaam Naama"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage_id": "first_stage_b",
+      "stage_name": "First Stage B",
+      "schedule": [
+        {
+          "day": "Sunday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Probability and Statistic",
+              "room": "LAB 3",
+              "type": "lab",
+              "instructors": ["Dr. Anaam Sadiq", "Eman Ghazal", "Roya", "Asmaa Saddam", "Anas"]
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Probability and Statistic",
+              "room": "LAB 3",
+              "type": "lab",
+              "instructors": ["Roya", "Eman Ghazal", "Asmaa Saddam", "Dr. Yassin", "Anas"]
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Arabic I",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Lubna Abdulazeez"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Foundations of Information Systems",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Dr. Sura Fawzi"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Programming Fundamentals II",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Ayoub Abdul Moneim"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Human Resources Management",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Dr. Abdullah Nehad"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Probability and Statistic",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Dr. Anaam Naama"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Web Search Method",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Dr. Mohammed Qassim"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Foundations of Information Systems",
+              "room": "LAB 4",
+              "type": "lab",
+              "instructors": ["Dr. Sura Fawzi", "Eman Ghazal", "Rana", "Omar Hadi"]
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Programming Fundamentals II",
+              "room": "LAB 4",
+              "type": "lab",
+              "instructors": ["Ayoub Abdul Moneim", "Rasha", "Dr. May", "Mohammed Abdulameer"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage_id": "second_stage",
+      "stage_name": "Second Stage",
+      "schedule": [
+        {
+          "day": "Sunday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Arabic II",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Lubna Abdulazeez"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Algorithms and Complexity",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Dr. Itimad Rahim"
+            },
+            {
+              "time": "12:30-13:30",
+              "subject": "Management Information Systems",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G(A)"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Web Applications Development",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Dr. Sarmed"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Management Information Systems",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Mohammed Hussein"
+            },
+            {
+              "time": "12:30-13:30",
+              "subject": "Management Information Systems",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G(B)"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Object Oriented Programming II",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Dr. Ahmed Abdulridha", "Rami", "Hawraa"]
+            },
+            {
+              "time": "8:30-10:30",
+              "subject": "Database Fundamentals",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Huda Abdulhussein", "Dr. Asmaa Abdul Hussein"]
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Database Fundamentals",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Huda Abdulhussein", "Dr. Asmaa Abdul Hussein"]
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Object Oriented Programming II",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Ahmed Abdulridha", "Rami", "Hawraa"]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Web Applications Development",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Dr. Sarmed", "Aya", "Ameer Ibrahim"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Algorithms and Complexity",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(B)",
+              "instructor": "Saqera Jawad"
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Algorithms and Complexity",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G(A)",
+              "instructor": "Saqera Jawad"
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Web Applications Development",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Sarmed", "Aya", "Ameer Ibrahim"]
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "English III",
+              "room": "CLASS 2",
+              "type": "lecture",
+              "instructor": "Saif Adel"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Object Oriented Programming II",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Dr. Ahmed Abdulridha"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Database Fundamentals",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Dr. Roqaya Jawad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage_id": "third_stage",
+      "stage_name": "Third Stage",
+      "schedule": [
+        {
+          "day": "Sunday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Software Engineering II",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Dr. Aous H Kurdi", "Ahmed Abdulkareem", "Zena Bahaa"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Cyber Security for Business",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Huda Kadim", "Dr. Mohanded Ali", "Shaimaa Lotfi", "Raad"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Multimedia Technology",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G(C)",
+              "instructors": ["Dr. Wasnaa Kadhim", "Hasan Aqeel", "Mohammed Hussein"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Multimedia Technology",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Dr. Wasnaa Kadhim", "Hasan Aqeel", "Mohammed Hussein"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Software Engineering II",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Aous H Kurdi", "Ahmed Abdulkareem", "Zena Bahaa"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Cyber Security for Business",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(C)",
+              "instructors": ["Dr. Huda Kadim", "Dr. Mohanded Ali", "Shaimaa Lotfi", "Raad"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Cyber Security for Business",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Dr. Huda Kadim", "Dr. Mohanded Ali", "Shaimaa Lotfi", "Raad"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Multimedia Technology",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Wasnaa Kadhim", "Hasan Aqeel", "Mohammed Hussein"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Software Engineering II",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G(C)",
+              "instructors": ["Dr. Aous H Kurdi", "Ahmed Abdulkareem", "Zena Bahaa"]
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Cyber Security for Business",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Dr. Huda Kadim"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Internet of Things",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Dr. Muhanad Abdul Elah"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Machine Learning",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Ahmed Sami", "Hiba", "Dr. Huda Wadhah"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Internet of Things",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G(C)",
+              "instructors": ["Dr. Muhanad Abdul Elah", "Ahmed Abdulkareem", "Mohammed Wahab"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Internet of Things",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Muhanad Abdul Elah", "Ahmed Abdulkareem", "Mohammed Wahab"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Machine Learning",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G(C)",
+              "instructors": ["Ahmed Sami", "Hiba", "Dr. Huda Wadhah"]
+            },
+            {
+              "time": "12:30-13:30",
+              "subject": "Internet of Things",
+              "room": "LAB 4",
+              "type": "lab",
+              "instructors": ["Dr. Muhanad Abdul Elah", "Ahmed Abdulkareem", "Mohammed Wahab"]
+            },
+            {
+              "time": "12:30-13:30",
+              "subject": "Machine Learning",
+              "room": "LAB 3",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Ahmed Sami", "Hiba", "Dr. Huda Wadhah"]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Operations Management",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Hader Sami"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Machine Learning",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Ahmed Sami"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Multimedia Technology",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Dr. Wasnaa Kadhim"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Software Engineering II",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Dr. Aous H Kurdi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stage_id": "fourth_stage",
+      "stage_name": "Fourth Stage",
+      "schedule": [
+        {
+          "day": "Sunday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Total Quality Management",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Dr. Ban"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Project II",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Dr. Haitham"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "sessions": [
+            {
+              "time": "8:30-9:30",
+              "subject": "Healthcare Information Systems",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Dr. Dalya Abdulhadi", "Ahmed Nasser", "Hassan Mosyrof", "Saad Mazin"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Web Development for E-business",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Mahdi Nassif", "Shathama Jokhar", "Raad", "Ali Munther", "Dr. Raja Kadim"]
+            },
+            {
+              "time": "8:30-9:30",
+              "subject": "Business Intelligence",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G(C)",
+              "instructors": ["Dr. Asmaa Abdul Hussein", "Ali Nofal", "Zaynbey", "wasen"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Business Intelligence",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Dr. Asmaa Abdul Hussein", "Ali Nofal", "Zaynbey", "wasen"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Healthcare Information Systems",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Dalya Abdulhadi", "Ahmed Nasser", "Hassan Mosyrof", "Saad Mazin"]
+            },
+            {
+              "time": "9:30-10:30",
+              "subject": "Web Development for E-business",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(C)",
+              "instructors": ["Dr. Mahdi Nassif", "Shathama Jokhar", "Raad", "Ali Munther", "Dr. Raja Kadim"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Web Development for E-business",
+              "room": "LAB 2",
+              "type": "lab",
+              "group": "G(A)",
+              "instructors": ["Dr. Mahdi Nassif", "Shathama Jokhar", "Raad", "Ali Munther", "Dr. Raja Kadim"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Business Intelligence",
+              "room": "LAB 4",
+              "type": "lab",
+              "group": "G(B)",
+              "instructors": ["Dr. Asmaa Abdul Hussein", "Ali Nofal", "Zaynbey", "wasen"]
+            },
+            {
+              "time": "10:30-11:30",
+              "subject": "Healthcare Information Systems",
+              "room": "LAB 1",
+              "type": "lab",
+              "group": "G(C)",
+              "instructors": ["Dr. Dalya Abdulhadi", "Ahmed Nasser", "Hassan Mosyrof", "Saad Mazin"]
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Healthcare Information Systems",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Dr. Dalya Abdulhadi"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Managing Enterprise Systems",
+              "room": "CLASS 8",
+              "type": "lecture",
+              "instructor": "Hader Sami"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "sessions": [
+            {
+              "time": "8:30-10:30",
+              "subject": "Web Development for E-business",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Dr. Mahdi Nassif"
+            },
+            {
+              "time": "10:30-12:30",
+              "subject": "Business Intelligence",
+              "room": "CLASS 5",
+              "type": "lecture",
+              "instructor": "Dr. Asmaa Abdul Hussein"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": {
+    "classrooms": ["CLASS 2", "CLASS 5", "CLASS 8"],
+    "labs": ["LAB 1", "LAB 2", "LAB 3", "LAB 4"]
+  },
+  "time_slots": [
+    "8:30-9:30",
+    "9:30-10:30",
+    "10:30-11:30",
+    "11:30-12:30",
+    "12:30-13:30",
+    "13:30-14:30"
+  ],
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+}
