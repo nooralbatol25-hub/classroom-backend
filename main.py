@@ -249,6 +249,13 @@ def predict_staff_noshow(room_id: str, day: int = 0, time: int = 10):
         "decision": prediction,
         "status": status
     }
+@app.get("/schedule-by-day")
+def get_schedule_by_day(day: str):
+    schedules = db.collection("schedules").where("day", "==", day).stream()
+    result = []
+    for s in schedules:
+        result.append(s.to_dict())
+    return result
 if __name__=="__main__":
     import uvicorn
     uvicorn.run(app,host="0.0.0.0", port=8000,) 
