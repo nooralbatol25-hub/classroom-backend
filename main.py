@@ -71,7 +71,17 @@ def predict_noshow(room_id: str, day: int = 0, time: int = 10, prev_noshow: int 
     room = room_ref.to_dict()
     capacity = room.get("Capacity", 30)
     
-    actual_noshow = 1 if room.get('status') in ['noshow', 'reserved'] else 0
+    # الراندوم فورست يتنبأ فقط على القاعات المحجوزة
+    if room.get('status') not in ['reserved', 'noshow']:
+        return {
+            "room_id": room_id,
+            "noshow_probability": 0.0,
+            "decision": "Keep Reservation",
+            "capacity": capacity,
+            "status": room.get("status", "unknown")
+        }
+
+    actual_noshow = 1 if room.get('status') == 'noshow' else 0
     features = np.array([[day, time, capacity, actual_noshow]])
     prob = model.predict_proba(features)[0][1]
     prediction = "Candidate (Reallocate)" if prob > 0.65 else "Monitor" if prob > 0.45 else "Keep Reservation"
@@ -166,7 +176,17 @@ def predict_noshow(room_id: str, day: int = 0, time: int = 10, prev_noshow: int 
     room = room_ref.to_dict()
     capacity = room.get("Capacity", 30)
     
-    actual_noshow = 1 if room.get('status') in ['noshow', 'reserved'] else 0
+    # الراندوم فورست يتنبأ فقط على القاعات المحجوزة
+    if room.get('status') not in ['reserved', 'noshow']:
+        return {
+            "room_id": room_id,
+            "noshow_probability": 0.0,
+            "decision": "Keep Reservation",
+            "capacity": capacity,
+            "status": room.get("status", "unknown")
+        }
+
+    actual_noshow = 1 if room.get('status') == 'noshow' else 0
     features = np.array([[day, time, capacity, actual_noshow]])
     prob = model.predict_proba(features)[0][1]
     prediction = "Candidate (Reallocate)" if prob > 0.65 else "Monitor" if prob > 0.45 else "Keep Reservation"

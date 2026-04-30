@@ -13,6 +13,13 @@ print("✅ Old schedules deleted!")
 
 # رفع بيانات القاعات الحقيقية
 rooms = [
+    {"room_id": "CLASS 1", "Capacity": 40, "status": "free", "type": "classroom"},
+    {"room_id": "CLASS 6", "Capacity": 40, "status": "free", "type": "classroom"},
+    {"room_id": "CLASS 7", "Capacity": 40, "status": "free", "type": "classroom"},
+    {"room_id": "BIT LAB 1", "Capacity": 30, "status": "free", "type": "lab"},
+    {"room_id": "BIT LAB 2", "Capacity": 30, "status": "free", "type": "lab"},
+    {"room_id": "BIT LAB 3", "Capacity": 30, "status": "free", "type": "lab"},
+    {"room_id": "BIT LAB 4", "Capacity": 30, "status": "free", "type": "lab"},
     {"room_id": "CLASS 2", "Capacity": 40, "status": "free", "type": "classroom"},
     {"room_id": "CLASS 5", "Capacity": 40, "status": "free", "type": "classroom"},
     {"room_id": "CLASS 8", "Capacity": 40, "status": "free", "type": "classroom"},
@@ -82,6 +89,7 @@ for stage in bit_data["stages"]:
             print(f"✅ BIT - {stage['stage_name']} - {day_schedule['day']} - {session['room']}")            
 
 # غرف التدريسيين
+staff_rooms = []
 for i in range(1, 31):
     staff_rooms.append({
         "room_id": f"TR{i:02d}",
