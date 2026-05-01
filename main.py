@@ -81,8 +81,20 @@ def predict_noshow(room_id: str, day: int = 0, time: int = 10, prev_noshow: int 
             "status": room.get("status", "unknown")
         }
 
-    actual_noshow = 1 if room.get('status') == 'noshow' else 0
-    features = np.array([[day, time, capacity, actual_noshow]])
+    
+    # جلب احتمالية No-show من بيانات الحضور
+    attendance = db.collection("attendance")\
+        .where("room", "==", room_id)\
+        .where("day_num", "==", day)\
+        .stream()
+
+    records = [doc.to_dict() for doc in attendance]
+    if records:
+        hist_noshow = sum(r['noshow'] for r in records) / len(records)
+    else:
+        hist_noshow = 0.3
+
+    features = np.array([[day, time, capacity, hist_noshow]])
     prob = model.predict_proba(features)[0][1]
     prediction = "Candidate (Reallocate)" if prob > 0.65 else "Monitor" if prob > 0.45 else "Keep Reservation"
     
