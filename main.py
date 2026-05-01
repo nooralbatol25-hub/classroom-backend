@@ -121,7 +121,7 @@ def predict_noshow(room_id: str, day: int = 0, time: int = 10, prev_noshow: int 
     else:
         hist_noshow = 0.3
 
-    features = np.array([[day, time, capacity, hist_noshow]])
+    features = np.array([[day, time, hist_noshow]])
     prob = model.predict_proba(features)[0][1]
     prediction = "Candidate (Reallocate)" if prob > 0.65 else "Monitor" if prob > 0.45 else "Keep Reservation"
     
