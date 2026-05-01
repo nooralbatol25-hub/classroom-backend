@@ -70,16 +70,28 @@ def predict_noshow(room_id: str, day: int = 0, time: int = 10, prev_noshow: int 
     
     room = room_ref.to_dict()
     capacity = room.get("Capacity", 30)
+    # التحقق من جدول الجامعة
+    day_names = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+    day_name = day_names[day] if day < len(day_names) else 'Sunday'
     
-    # الراندوم فورست يتنبأ فقط على القاعات المحجوزة
-    if room.get('status') not in ['reserved', 'noshow']:
+    schedule_check = db.collection("schedules")\
+        .where("room", "==", room_id)\
+        .where("day", "==", day_name)\
+        .stream()
+    
+    schedule_records = [doc.to_dict() for doc in schedule_check]
+    
+    if not schedule_records:
         return {
             "room_id": room_id,
             "noshow_probability": 0.0,
             "decision": "Keep Reservation",
             "capacity": capacity,
-            "status": room.get("status", "unknown")
+            "status": "available"
         }
+    
+    # الراندوم فورست يتنبأ فقط على القاعات المحجوزة
+    
 
     
     # جلب احتمالية No-show من بيانات الحضور
