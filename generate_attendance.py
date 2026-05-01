@@ -44,10 +44,10 @@ for stage in ism_data["stages"]:
             for week in range(10):
                 # احتمالية الحضور حسب الوقت واليوم
                 time_start = int(session["time"].split(":")[0])
-                noshow_prob = 0.4  # افتراضي
+                noshow_prob = 0.6  # افتراضي
                 
                 if time_start <= 9:  # صباح باكر
-                    noshow_prob = 0.7
+                    noshow_prob = 0.85
                 if day in ['Sunday', 'Thursday']:  # بداية ونهاية الأسبوع
                     noshow_prob += 0.1
                     
