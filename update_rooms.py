@@ -18,6 +18,14 @@ for i in range(1, 101):
         'status': status,
     })
     print(f'✅ {room_id} - {status}')
+    # تحديث القاعات الدراسية لـ reserved
+classroom_rooms = ['CLASS 1', 'CLASS 2', 'CLASS 5', 'CLASS 6', 'CLASS 7', 'CLASS 8',
+                   'LAB 1', 'LAB 2', 'LAB 3', 'LAB 4',
+                   'BIT LAB 1', 'BIT LAB 2', 'BIT LAB 3', 'BIT LAB 4']
+
+for room in classroom_rooms:
+    db.collection("rooms").document(room).update({'status': 'reserved'})
+    print(f'✅ {room} - reserved')
 
 print('🎉 100 rooms updated!')
 import random
