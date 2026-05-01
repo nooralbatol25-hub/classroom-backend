@@ -47,8 +47,23 @@ df = pd.DataFrame(training_data)
 X = df[["day", "time", "capacity", "prev_noshow"]]
 y = df["label"]
 
-model = RandomForestClassifier(n_estimators=100, random_state=42)
+model = RandomForestClassifier(n_estimators=10, max_depth=3, random_state=42)
 model.fit(X, y)
+
+# تدريب النموذج من Firebase
+try:
+    print("Training model from Firebase...")
+    att_docs = db.collection("attendance").stream()
+    att_records = [doc.to_dict() for doc in att_docs]
+    if att_records:
+        att_df = pd.DataFrame(att_records)
+        X_train = att_df[["day_num", "time_num", "noshow"]]
+        y_train = att_df["noshow"]
+        model = RandomForestClassifier(n_estimators=10, max_depth=3, random_state=42)
+        model.fit(X_train, y_train)
+        print(f"✅ Model trained on {len(att_records)} records")
+except Exception as e:
+    print(f"⚠️ Using default model: {e}")
 
 @app.get("/")
 def root():
