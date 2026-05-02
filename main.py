@@ -326,6 +326,13 @@ def get_schedule_by_day(day: str):
     for s in schedules:
         result.append(s.to_dict())
     return result
+@app.get("/all-bookings")
+def get_all_bookings():
+    bookings = db.collection("bookings").stream()
+    result = []
+    for b in bookings:
+        result.append(b.to_dict())
+    return result
 if __name__=="__main__":
     import uvicorn
     uvicorn.run(app,host="0.0.0.0", port=8000,) 
