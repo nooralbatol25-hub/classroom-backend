@@ -52,25 +52,16 @@ model.fit(X, y)
 
 # تدريب النموذج من Firebase
 try:
-    print("Training model from Firebase...")
-    att_docs = db.collection("attendance").stream()
-    att_records = [doc.to_dict() for doc in att_docs]
-    if att_records:
-        att_df = pd.DataFrame(att_records)
-        X_train = att_df[["day_num", "time_num"]]
-        y_train = att_df["noshow"]
-        model = RandomForestClassifier(n_estimators=10, max_depth=3, random_state=42)
-        model.fit(X_train, y_train)
-        print(f"✅ Model trained on {len(att_records)} records")
-        # حفظ البيانات في الـ memory
+    print("Using default training data...")
+    df = pd.DataFrame(training_data)
+    X_train = df[["day", "time"]]
+    y_train = df["label"]
+    model = RandomForestClassifier(n_estimators=10, max_depth=3, random_state=42)
+    model.fit(X_train, y_train)
     attendance_cache = {}
-    for r in att_records:
-     key = f"{r.get('room', '')}-{r.get('day_num', 0)}"
-     if key not in attendance_cache:
-        attendance_cache[key] = []
-    attendance_cache[key].append(r.get('noshow', 0))
+    print("✅ Model ready!")
 except Exception as e:
-    print(f"⚠️ Using default model: {e}")
+    print(f"⚠️ Error: {e}")
 
 @app.get("/")
 def root():
