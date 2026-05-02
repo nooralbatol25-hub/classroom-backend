@@ -57,7 +57,7 @@ try:
     att_records = [doc.to_dict() for doc in att_docs]
     if att_records:
         att_df = pd.DataFrame(att_records)
-        X_train = att_df[["day_num", "time_num", "noshow"]]
+        X_train = att_df[["day_num", "time_num"]]
         y_train = att_df["noshow"]
         model = RandomForestClassifier(n_estimators=10, max_depth=3, random_state=42)
         model.fit(X_train, y_train)
