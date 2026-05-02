@@ -62,6 +62,12 @@ try:
     print("✅ Model ready!")
 except Exception as e:
     print(f"⚠️ Error: {e}")
+    df = pd.DataFrame(training_data)
+    X = df[["day", "time", "capacity", "prev_noshow"]]
+    y = df["label"]
+    model = RandomForestClassifier(n_estimators=10, max_depth=3, random_state=42)
+    model.fit(X, y)
+    print(f"⚠️ Error: {e}")
 
 @app.get("/")
 def root():
