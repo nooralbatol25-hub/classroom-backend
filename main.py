@@ -49,7 +49,7 @@ y = df["label"]
 
 model = RandomForestClassifier(n_estimators=10, max_depth=3, random_state=42)
 model.fit(X, y)
-
+attendance_cache = {}
 # تدريب النموذج من Firebase
 try:
     print("Using default training data...")
