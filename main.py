@@ -62,6 +62,13 @@ try:
         model = RandomForestClassifier(n_estimators=10, max_depth=3, random_state=42)
         model.fit(X_train, y_train)
         print(f"✅ Model trained on {len(att_records)} records")
+        # حفظ البيانات في الـ memory
+    attendance_cache = {}
+    for r in att_records:
+     key = f"{r.get('room', '')}-{r.get('day_num', 0)}"
+     if key not in attendance_cache:
+        attendance_cache[key] = []
+    attendance_cache[key].append(r.get('noshow', 0))
 except Exception as e:
     print(f"⚠️ Using default model: {e}")
 
@@ -110,12 +117,8 @@ def predict_noshow(room_id: str, day: int = 0, time: int = 10, prev_noshow: int 
 
     
     # جلب احتمالية No-show من بيانات الحضور
-    attendance = db.collection("attendance")\
-        .where("room", "==", room_id)\
-        .where("day_num", "==", day)\
-        .stream()
-
-    records = [doc.to_dict() for doc in attendance]
+    key = f"{room_id}-{day}"
+    records = [{'noshow': n} for n in attendance_cache.get(key, [])]
     if records:
         hist_noshow = sum(r['noshow'] for r in records) / len(records)
     else:
