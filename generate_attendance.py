@@ -6,6 +6,12 @@ import json
 cred = credentials.Certificate("serviceaccount.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
+# حذف البيانات القديمة
+print("Deleting old attendance data...")
+docs = db.collection("attendance").limit(500).stream()
+for doc in docs:
+    doc.reference.delete()
+print("✅ Old data deleted!")
 
 # قراءة جداول الجامعة
 with open("ism_schedules.json", "r") as f:
